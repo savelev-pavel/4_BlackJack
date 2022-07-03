@@ -64,7 +64,7 @@ def main():
                 if getHandValue(playerHand) > 21:
                     continue
 
-                if move in ('S','D'):
+            if move in ('S','D'):
                     break
 
 
