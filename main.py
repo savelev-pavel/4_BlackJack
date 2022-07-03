@@ -79,7 +79,7 @@ def main():
                 input('Press enter to continue...')
                 print('\n\n')
 
-        displayHands(playerHand, dealerHand, False)
+        displayHands(playerHand, dealerHand, True)
 
         playerValue = getHandValue(playerHand)
         dealerValue = getHandValue(dealerHand)
